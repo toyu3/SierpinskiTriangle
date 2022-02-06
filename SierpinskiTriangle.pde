@@ -7,8 +7,9 @@ public void draw()
 	background(0);
 	sier(100,350,300);
 }
-public void mouseDragged()//optional
+void mousePressed() {
 {
+sier(100,350,300);
 }
 public void sier(int x, int y, int len) 
 {
