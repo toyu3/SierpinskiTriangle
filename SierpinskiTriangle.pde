@@ -3,7 +3,9 @@ public void setup(){
 }
 public void draw(){	
 	background(0);
-	sier(80,370,300);
+	if (mousePressed == true){
+		sier(80,370,300);
+	}
 }
 public void sier(int x, int y, int len) {
 	if(len<=20){
